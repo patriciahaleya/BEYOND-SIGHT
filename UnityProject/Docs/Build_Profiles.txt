@@ -1,0 +1,4 @@
+BUILD PROFILES
+VR (Meta Quest 3): Android, OpenXR, ARM64, IL2CPP, 72 FPS target.
+Desktop: Standalone Windows/Mac. Enable 3D audio; keep bloom lightweight.
+iOS: iOS 15+, Microphone permission; Xcode builds iOS TTS bridge automatically.

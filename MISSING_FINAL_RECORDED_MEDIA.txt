@@ -1,0 +1,11 @@
+FINAL MEDIA STILL REQUIRED
+
+The master ZIP contains scripts, caption files, logo assets, storyboard/reference materials,
+and Unity integration code. It does NOT contain finished recorded video/audio.
+
+Required final deliverables:
+- Assets/StreamingAssets/I_Can_See_Now_Intro_en.mp4
+- Assets/StreamingAssets/I_Can_See_Now_Intro_es.mp4
+- Assets/StreamingAssets/I_Can_See_Now_ASL_Overlay.mp4
+
+Use ProductionMedia/ for the narration, ASL cues, captions, and editor guidance.

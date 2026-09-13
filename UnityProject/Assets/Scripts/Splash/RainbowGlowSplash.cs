@@ -1,0 +1,3 @@
+using UnityEngine;using UnityEngine.UI;using UnityEngine.SceneManagement;
+public class RainbowGlowSplash:MonoBehaviour{public Image LogoImage;public float Duration=5f;public float PulseSpeed=1.2f;float t;
+void Update(){t+=Time.deltaTime;float hue=Mathf.Repeat(t*0.12f,1f);Color c=Color.HSVToRGB(hue,0.6f,1f);float a=0.85f+0.15f*(0.5f+0.5f*Mathf.Sin(t*PulseSpeed));if(LogoImage)LogoImage.color=new Color(c.r,c.g,c.b,a);if(t>=Duration||Input.anyKeyDown)SceneManager.LoadScene("PAH_IntroVideo");}}

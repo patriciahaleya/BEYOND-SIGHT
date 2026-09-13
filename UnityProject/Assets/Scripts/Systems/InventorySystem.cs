@@ -1,0 +1,1 @@
+using UnityEngine; public class InventorySystem:MonoBehaviour{ public int LightSeeds{get;private set;} public int HeartMedals{get;private set;} public void AddLightSeed(int n=1){LightSeeds+=n;PlayerPrefs.SetInt("inv.seeds",LightSeeds);} public void AddHeartMedal(int n=1){HeartMedals+=n;PlayerPrefs.SetInt("inv.medals",HeartMedals);} }

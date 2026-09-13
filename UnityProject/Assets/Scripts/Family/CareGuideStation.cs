@@ -1,0 +1,1 @@
+using UnityEngine; public class CareGuideStation:MonoBehaviour{ public void Tip(string k){ Debug.Log("[Care] "+k); } }

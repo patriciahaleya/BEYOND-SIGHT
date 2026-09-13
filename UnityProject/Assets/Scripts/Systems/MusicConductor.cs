@@ -1,0 +1,1 @@
+using UnityEngine; public class MusicConductor:MonoBehaviour{ public AudioSource A,B; bool a=true; public void Crossfade(){ if(a){ if(B&&!B.isPlaying)B.Play(); if(A)A.volume=0; } else { if(A&&!A.isPlaying)A.Play(); if(B)B.volume=0; } a=!a; } }

@@ -1,0 +1,24 @@
+{
+  "cards": [
+    {
+      "title": "Early Intervention (Birth\u20133)",
+      "desc": "Call your local Early Intervention program to start services. Ask for vision and occupational therapy screenings.",
+      "action": "Find your state\u2019s EI website."
+    },
+    {
+      "title": "Vision Therapy & O&M",
+      "desc": "Orientation & Mobility specialists teach safe movement, cane readiness, and spatial awareness.",
+      "action": "Ask your pediatrician for a referral."
+    },
+    {
+      "title": "Parent Networks",
+      "desc": "Connect with parents who have walked this path. Share wins and worries in a kind space.",
+      "action": "Join a moderated support group."
+    },
+    {
+      "title": "Faith-Based Support",
+      "desc": "Many churches and ministries offer sensory-friendly nurseries and help for families.",
+      "action": "Ask local leaders about sensory accommodations."
+    }
+  ]
+}

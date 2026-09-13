@@ -1,0 +1,1 @@
+using UnityEngine; public class BabyModeManager:MonoBehaviour{ public bool Enabled=false; public void Toggle(){ Enabled=!Enabled; EventBus.Broadcast("baby.mode", Enabled? "on":"off"); Debug.Log("[BabyMode] "+(Enabled?"ON":"OFF")); } }

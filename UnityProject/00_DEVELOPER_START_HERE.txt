@@ -1,0 +1,30 @@
+DEVELOPER — START HERE
+
+1. Open the folder `UnityProject` using Unity 2022.3 LTS.
+2. Allow Unity to import/compile the project.
+3. In the Unity menu choose:
+      PAH > Build Master Scenes
+4. Confirm these scenes appear in Build Settings:
+      Splash_PAH_Rainbow
+      LanguagePicker
+      PAH_IntroVideo
+      Main
+      AskFaithFriendMom
+5. Preserve offline/private defaults.
+6. Add final recorded MP4 files to Assets/StreamingAssets when available.
+7. Validate every target platform separately before delivery.
+8. Do not publicly release the app without the owner's approval.
+
+Language behavior:
+- User chooses the language they want to speak/use.
+- Current built-in app choices: English and Spanish.
+- The choice controls captions, narration-file routing, TTS locale, and FaithFriend Mom answers.
+
+Accessibility review before public deployment:
+- Blind/low-vision user testing
+- Voice-first navigation
+- Audio description
+- Captions
+- ASL/Deaf review
+- Braille/TVI review
+- Orientation & Mobility specialist review

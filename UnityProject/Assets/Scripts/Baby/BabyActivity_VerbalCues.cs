@@ -1,0 +1,1 @@
+using UnityEngine; public class BabyActivity_VerbalCues:MonoBehaviour{ public TalkSingClapTTS TTS; public void StartLesson(){ TTS?.Talk("Say your name and where you are. I am on your left."); } }

@@ -1,0 +1,1 @@
+using UnityEngine; public class SaveSystem:MonoBehaviour{ public void SaveInt(string k,int v){PlayerPrefs.SetInt(k,v);PlayerPrefs.Save();} public int LoadInt(string k,int d=0){return PlayerPrefs.GetInt(k,d);} }

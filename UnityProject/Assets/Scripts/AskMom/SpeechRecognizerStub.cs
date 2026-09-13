@@ -1,0 +1,2 @@
+using UnityEngine; public class SpeechRecognizerStub:MonoBehaviour{ public FaithFriendMomManager Mom;
+    void Update(){ if(Input.GetKeyDown(KeyCode.J)) Mom?.AskQuestion("How can I calm my blind baby at bedtime?"); if(Input.GetKeyDown(KeyCode.K)) Mom?.AskQuestion("What toys help a blind baby learn?"); if(Input.GetKeyDown(KeyCode.L)) Mom?.AskQuestion("How do I cope with my feelings?"); } }

@@ -1,0 +1,47 @@
+I CAN SEE NOW — COMPLETE DEVELOPER MASTER
+Generated: 2026-09-12
+
+THIS IS THE ONE MASTER ZIP TO GIVE THE DEVELOPER.
+
+Included in the active merged UnityProject:
+- Healing Stations systems and configuration
+- Baby Mode
+- Family Hub
+- Ask FaithFriend Mom
+- Save / inventory / quest / haptics / aroma-controller scaffolding
+- Live station systems
+- Private-mode support
+- PAH heart branding
+- Rainbow Bloom splash
+- Intro video controller
+- Captions
+- English / Spanish language picker
+- English / Spanish TTS locale support
+- Bilingual FaithFriend Mom starter Q&A
+- iOS TTS bridge
+- Build/privacy documentation
+
+Also included:
+- ProductionMedia/ with narration script, captions, ASL cue sheet, editor instructions and PAH logo
+- Visual storyboard ZIP and preview GIF
+- Archive_Previous_Packs/ containing all earlier generated project/add-on ZIPs
+
+IMPORTANT:
+This is the complete SOURCE/HANDOFF package available here. It is NOT a compiled app installer.
+A Unity developer must still open and wire/build the project for each target platform.
+
+Final recorded media that is NOT included because it must be produced/recorded:
+1. I_Can_See_Now_Intro_en.mp4
+2. I_Can_See_Now_Intro_es.mp4
+3. I_Can_See_Now_ASL_Overlay.mp4
+
+The ASL recording should be reviewed/recorded by a qualified ASL interpreter or Deaf consultant.
+
+Platform builds are separate:
+- Meta Quest / Android: APK/AAB
+- iPhone / iPad: Xcode/IPA
+- Windows: EXE build
+- macOS: .app build
+
+Recommended developer starting point:
+UnityProject/Docs/DEVELOPER_START_HERE.txt

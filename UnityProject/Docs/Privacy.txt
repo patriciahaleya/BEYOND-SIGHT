@@ -1,0 +1,6 @@
+PRIVACY (PRIVATE BUILD)
+- No networking required; everything runs offline.
+- Add Scripting Define: PRIVATE_BUILD to hide any outbound links.
+- Disable Analytics/Crash Upload in Project Settings.
+- Android: ensure no INTERNET permission is added by third-party plugins.
+- iOS: do not add App Transport Security exceptions.

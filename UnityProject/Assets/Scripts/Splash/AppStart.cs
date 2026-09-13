@@ -1,0 +1,2 @@
+using UnityEngine;using UnityEngine.SceneManagement;
+public class AppStart{[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]static void Early(){if(PlayerPrefs.GetInt("pah.intro.seen",0)==0)SceneManager.LoadScene("Splash_PAH_Rainbow");}}

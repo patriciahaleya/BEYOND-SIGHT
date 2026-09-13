@@ -1,0 +1,1 @@
+using UnityEngine; public class SignLanguageTrainer:MonoBehaviour{ public void Show(string s){ Debug.Log("[Sign] "+s);} }

@@ -1,0 +1,173 @@
+{
+  "stations": [
+    {
+      "id": 1,
+      "name": "TouchTheWorld",
+      "color": "#2ECC71",
+      "aroma": "Petrichor",
+      "haptics": "enter",
+      "music": "Marimba",
+      "quests": [
+        "Feel 3 textures",
+        "Find the warm stone",
+        "Catch the butterfly hum"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "SoundRivers",
+      "color": "#2980B9",
+      "aroma": "Lavender",
+      "haptics": "wave",
+      "music": "Handpan",
+      "quests": [
+        "Tap river rhythm",
+        "Find the jumping fish",
+        "Follow the river left\u2192right"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "SmellTheWorld",
+      "color": "#F1C40F",
+      "aroma": "Orange/Jasmine",
+      "haptics": "flutter",
+      "music": "Plucks",
+      "quests": [
+        "Pick the rose scent",
+        "Match fruit to sound",
+        "Find mint for focus"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "FeelTheStory",
+      "color": "#F8E8C8",
+      "aroma": "Vanilla",
+      "haptics": "heartbeat",
+      "music": "Piano",
+      "quests": [
+        "Read braille line 1-2-3",
+        "Find the 'friend' word",
+        "Turn the soft page"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "MathByTouch",
+      "color": "#74B9FF",
+      "aroma": "Peppermint",
+      "haptics": "count",
+      "music": "Kalimba",
+      "quests": [
+        "Count 3 circles",
+        "Add 2+1 by touch",
+        "Find the triangle"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "AdventureOfLife",
+      "color": "#E67E22",
+      "aroma": "SoapGrass",
+      "haptics": "enter",
+      "music": "Percussion",
+      "quests": [
+        "Find the door handle",
+        "Cross with 3 cane taps",
+        "Pour until cup is full"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "JoyGarden",
+      "color": "#E84393",
+      "aroma": "RoseHoney",
+      "haptics": "heartbeat",
+      "music": "Harp",
+      "quests": [
+        "Breathe 3 cycles",
+        "Listen for 2 birds",
+        "Find the warm pebble"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "FamilyHub",
+      "color": "#5A2D91",
+      "aroma": "CitrusWelcome",
+      "haptics": "enter",
+      "music": "WarmIntro",
+      "quests": [
+        "Watch 1 tip",
+        "Practice voice cue",
+        "Hug & celebrate"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "TalkingWithLove",
+      "color": "#9C27B0",
+      "aroma": "Vanilla",
+      "haptics": "joy",
+      "music": "PianoSoft",
+      "quests": [
+        "Left/right naming",
+        "Narrate actions",
+        "Warn before touch"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "SigningForEveryone",
+      "color": "#00BCD4",
+      "aroma": "Mint",
+      "haptics": "flutter",
+      "music": "BellTempo",
+      "quests": [
+        "Sign LOVE",
+        "Sign MOM",
+        "Sign HELP"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "SingingTogether",
+      "color": "#FF4081",
+      "aroma": "Honey",
+      "haptics": "joy",
+      "music": "ChoirJoy",
+      "quests": [
+        "Duet 10s",
+        "Clap rhythm",
+        "Smile & bow"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "CaringForTheHeart",
+      "color": "#FFA000",
+      "aroma": "CedarSoap",
+      "haptics": "wave",
+      "music": "CalmGuide",
+      "quests": [
+        "Safe door",
+        "Tidy basket",
+        "Floor markers"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "JoyPractice",
+      "color": "#8BC34A",
+      "aroma": "Eucalyptus",
+      "haptics": "heartbeat",
+      "music": "HarpBreath",
+      "quests": [
+        "Breathe 3x",
+        "Laugh 2x",
+        "Say 'I am loved'"
+      ]
+    }
+  ]
+}

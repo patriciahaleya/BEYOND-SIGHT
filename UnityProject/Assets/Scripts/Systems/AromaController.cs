@@ -1,0 +1,1 @@
+using UnityEngine; public class AromaController:MonoBehaviour{ public void Emit(string aroma,float strength){ Debug.Log("[Aroma] "+aroma+" "+strength); } }

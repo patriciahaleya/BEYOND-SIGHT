@@ -1,0 +1,1 @@
+using UnityEngine; public class BabyActivity_SensoryPlay:MonoBehaviour{ public TalkSingClapTTS TTS; public void StartLesson(){ TTS?.Talk("Texture tour: silk, bumpy, crinkle. Name each one."); } }

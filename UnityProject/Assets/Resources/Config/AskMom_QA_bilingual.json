@@ -1,0 +1,22 @@
+{
+  "faq": [
+    {
+      "q_en": "How can I calm my blind baby at bedtime?",
+      "a_en": "Hold your baby close, breathe together, and hum softly. Describe the warm blanket and the safe crib.",
+      "q_es": "¿Cómo puedo calmar a mi bebé ciego a la hora de dormir?",
+      "a_es": "Sostén a tu bebé cerca, respiren juntos y tararea suavemente. Describe la manta tibia y la cuna segura."
+    },
+    {
+      "q_en": "What toys help a blind baby learn?",
+      "a_en": "Choose toys with different textures and sounds: silky ribbons, bumpy balls, soft bells. Name each texture and sound.",
+      "q_es": "¿Qué juguetes ayudan a un bebé ciego a aprender?",
+      "a_es": "Elige juguetes con distintas texturas y sonidos: cintas de seda, pelotas con relieve, campanas suaves. Nombra cada textura y sonido."
+    },
+    {
+      "q_en": "How do I explain blindness to siblings?",
+      "a_en": "Invite them to play together. Ask them to describe colors, shapes, and sounds. Teach gentle help and patient voices.",
+      "q_es": "¿Cómo explico la ceguera a los hermanos?",
+      "a_es": "Invítalos a jugar juntos. Pídeles que describan colores, formas y sonidos. Enseña ayuda suave y voces pacientes."
+    }
+  ]
+}

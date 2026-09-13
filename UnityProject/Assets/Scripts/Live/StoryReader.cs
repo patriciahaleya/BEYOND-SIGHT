@@ -1,0 +1,1 @@
+using UnityEngine; public class StoryReader:MonoBehaviour{ string[] lines; int i=0; public void LoadLines(string[] ls){ lines=ls; i=0; } public void ReadNext(){ if(lines==null||lines.Length==0)return; Debug.Log("[Read] "+lines[i]); i=(i+1)%lines.Length; } }

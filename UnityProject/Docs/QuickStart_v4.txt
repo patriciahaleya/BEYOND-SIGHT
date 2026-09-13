@@ -1,0 +1,6 @@
+QUICK START (v4)
+1) Open the project in Unity 2022.3 LTS.
+2) Drop your final video files into Assets/StreamingAssets (see README).
+3) Open 'PAH_IntroVideo.unity' and hit Play. Skip button moves to Main.unity.
+4) For first-launch autoplay, AppStart.cs already routes users to the intro if not seen.
+5) Build for Quest/iOS/Desktop using Docs/Build_Profiles.txt.

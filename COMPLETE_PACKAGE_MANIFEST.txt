@@ -1,0 +1,61 @@
+I CAN SEE NOW — COMPLETE MASTER v6
+Generated: 2026-09-12
+
+THIS IS THE SINGLE PACKAGE TO GIVE THE DEVELOPER.
+
+ACTIVE UNITY PROJECT
+--------------------
+UnityProject/
+
+Core included:
+- Healing Station configs and routing
+- Live station behavior scaffolding
+- Baby Mode
+- Family Hub
+- Ask FaithFriend Mom
+- English / Spanish language selection
+- English / Spanish TTS locale routing
+- English / Spanish intro-caption routing
+- PAH official heart logo
+- Rainbow Bloom splash
+- Caption support
+- ASL-video window support
+- Local save / inventory / quests
+- Haptics controller scaffolding
+- Aroma-controller integration point
+- Privacy/offline documentation
+- iOS TTS bridge
+- Production narration/caption/ASL cue materials
+
+IMPORTANT IMPROVEMENT IN v6
+---------------------------
+Earlier packages contained scene-text placeholders. v6 removes those placeholders and includes:
+Assets/Editor/PAHProjectBuilder.cs
+
+After the project compiles in Unity:
+PAH > Build Master Scenes
+
+This generates valid Unity scene files and adds them to Build Settings:
+- Splash_PAH_Rainbow
+- LanguagePicker
+- PAH_IntroVideo
+- Main
+- AskFaithFriendMom
+
+EXTERNAL HUMAN-PRODUCED MEDIA STILL REQUIRED
+---------------------------------------------
+These cannot honestly be represented as finished recordings unless they are actually recorded:
+- I_Can_See_Now_Intro_en.mp4
+- I_Can_See_Now_Intro_es.mp4
+- I_Can_See_Now_ASL_Overlay.mp4
+
+The scripts, caption files, narration text, ASL cue sheet, storyboard, logo and editor directions are already included.
+For release-quality ASL, use a qualified ASL interpreter / Deaf reviewer.
+
+THIS IS SOURCE, NOT A UNIVERSAL INSTALLER
+-----------------------------------------
+The developer still produces separate builds:
+- Meta Quest / Android: APK or AAB
+- iPhone / iPad: Xcode / IPA
+- Windows: EXE build
+- macOS: .app build

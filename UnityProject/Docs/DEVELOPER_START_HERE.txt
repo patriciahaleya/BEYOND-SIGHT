@@ -1,0 +1,30 @@
+DEVELOPER START HERE
+
+1. Use Unity 2022.3 LTS for the project.
+2. Treat UnityProject/ as the active project source.
+3. Preserve the PAH branding and private/offline-first behavior.
+4. Build real Unity scenes from the supplied scene setup notes/placeholders:
+   - Splash_PAH_Rainbow
+   - LanguagePicker
+   - PAH_IntroVideo
+   - Main
+   - AskFaithFriendMom
+5. Wire the PAH heart logo from:
+   Assets/Resources/Brand/PAH_Heart.png
+6. Add the final media to Assets/StreamingAssets:
+   I_Can_See_Now_Intro_en.mp4
+   I_Can_See_Now_Intro_es.mp4
+   I_Can_See_Now_ASL_Overlay.mp4
+7. Keep English/Spanish language selection user-controlled.
+8. Validate all C# scripts and scene references in Unity before platform builds.
+9. Test without network access.
+10. Produce separate target builds for Quest/Android, iOS/iPadOS, Windows and macOS.
+
+Accessibility review before release:
+- Voice-first navigation for blind users
+- Large text/high contrast for low vision
+- Captions
+- Audio description
+- ASL reviewed by a qualified interpreter/Deaf consultant
+- Braille/tactile learning content reviewed by a TVI/Braille specialist
+- Orientation & mobility content reviewed by a certified O&M specialist

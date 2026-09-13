@@ -1,0 +1,1 @@
+using UnityEngine; using UnityEngine.SceneManagement; public class OpenAskMom:MonoBehaviour{ public void Open(){ SceneManager.LoadScene("AskFaithFriendMom"); } }

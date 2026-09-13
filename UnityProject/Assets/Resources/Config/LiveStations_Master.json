@@ -1,0 +1,102 @@
+{
+  "stations": [
+    {
+      "name": "TouchTheWorld",
+      "color": "#2ECC71",
+      "accent": "#D4FF7F",
+      "glow": "breath",
+      "talk": "Emerald world. Touch and explore.",
+      "sing": "MarimbaSong",
+      "clap": "tick",
+      "read_lines": [
+        "Feel the grass.",
+        "Touch the bark.",
+        "Find the smooth stone."
+      ]
+    },
+    {
+      "name": "SoundRivers",
+      "color": "#2980B9",
+      "accent": "#74B9FF",
+      "glow": "ripples",
+      "talk": "Blue river. Listen to the flow.",
+      "sing": "RiverHandpan",
+      "clap": "wave",
+      "read_lines": [
+        "Water left.",
+        "Water right.",
+        "Fish splash!"
+      ]
+    },
+    {
+      "name": "SmellTheWorld",
+      "color": "#F1C40F",
+      "accent": "#FFC72C",
+      "glow": "sunbeam",
+      "talk": "Golden garden. Smell and guess.",
+      "sing": "PetalBells",
+      "clap": "flutter",
+      "read_lines": [
+        "Petal is soft.",
+        "Leaf has ribs.",
+        "Which scent?"
+      ]
+    },
+    {
+      "name": "FeelTheStory",
+      "color": "#F8E8C8",
+      "accent": "#FFE8AA",
+      "glow": "candle",
+      "talk": "Ivory pages. Read with your fingers.",
+      "sing": "StoryHums",
+      "clap": "heartbeat",
+      "read_lines": [
+        "Once upon a time,",
+        "friends shared light,",
+        "and the light sang back."
+      ]
+    },
+    {
+      "name": "MathByTouch",
+      "color": "#74B9FF",
+      "accent": "#E0F7FA",
+      "glow": "metronome",
+      "talk": "Blue math. Count by touch.",
+      "sing": "KalimbaCount",
+      "clap": "count",
+      "read_lines": [
+        "One circle.",
+        "Two squares.",
+        "Three triangles."
+      ]
+    },
+    {
+      "name": "AdventureOfLife",
+      "color": "#E67E22",
+      "accent": "#FFB74D",
+      "glow": "footstep",
+      "talk": "Orange path. Step safely with me.",
+      "sing": "StreetPerc",
+      "clap": "navigate",
+      "read_lines": [
+        "Three steps.",
+        "Door handle.",
+        "You are safe."
+      ]
+    },
+    {
+      "name": "JoyGarden",
+      "color": "#E84393",
+      "accent": "#FFD54F",
+      "glow": "heartbeat",
+      "talk": "Pink garden. Breathe the joy.",
+      "sing": "HarpChoir",
+      "clap": "joy",
+      "read_lines": [
+        "Breathe in peace.",
+        "Smile with the wind.",
+        "You are loved."
+      ]
+    }
+  ]
+}

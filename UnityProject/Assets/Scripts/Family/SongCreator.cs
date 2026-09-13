@@ -1,0 +1,1 @@
+using UnityEngine; public class SongCreator:MonoBehaviour{ public AudioSource Harmony; public void Play(){ if(Harmony) Harmony.Play(); } }

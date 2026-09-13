@@ -1,0 +1,1 @@
+using UnityEngine; public class BabyActivity_SpatialGuidance:MonoBehaviour{ public TalkSingClapTTS TTS; public void StartLesson(){ TTS?.Talk("Trace the crib edge. Say left, right, front, back."); } }

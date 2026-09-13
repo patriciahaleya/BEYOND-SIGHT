@@ -1,0 +1,1 @@
+using UnityEngine; public class HapticsEngine:MonoBehaviour{ public void PlayPattern(string n){ Handheld.Vibrate(); } }

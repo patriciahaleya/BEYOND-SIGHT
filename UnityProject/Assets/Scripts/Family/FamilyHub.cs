@@ -1,0 +1,1 @@
+using UnityEngine; public class FamilyHub:MonoBehaviour{ void OnEnable(){ EventBus.Broadcast("ui.prompt","Family Hub ready."); } }

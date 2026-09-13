@@ -1,0 +1,1 @@
+using UnityEngine; public class BabyActivity_EarlyIntervention:MonoBehaviour{ public TalkSingClapTTS TTS; public void StartLesson(){ TTS?.Talk("Schedule early intervention with a vision therapist."); } }
