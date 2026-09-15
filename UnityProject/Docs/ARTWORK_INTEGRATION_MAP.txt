@@ -1,0 +1,20 @@
+I CAN SEE NOW — ORIGINAL ARTWORK INTEGRATION MAP
+Updated 2026-09-14
+
+Integrated Unity Resources:
+- Illustrations/BeyondSight_InclusiveFuture.png
+  Usage: Main screen background; intro fallback artwork when recorded MP4 is unavailable.
+- Illustrations/Liora_BeautyBeyondSight.png
+  Usage: Language picker background; Ask FaithFriend Mom background.
+- Illustrations/GlowGarden_Adventure.png
+  Usage: Main screen featured artwork panel.
+- Illustrations/CalmTools_MasterPanel.png
+  Usage: Main screen featured artwork panel.
+- Illustrations/Explorer_GameHub.png
+  Usage: Main screen featured artwork panel.
+
+Code updates:
+- Assets/Editor/PAHProjectBuilder.cs now creates artwork-backed UI in generated scenes.
+- Assets/Scripts/Video/IntroVideoController.cs now uses original Beyond Sight artwork as a real fallback if an intro MP4 is not yet present, and hides the ASL video window if no verified ASL MP4 exists.
+
+No placeholder artwork files are used in this package.

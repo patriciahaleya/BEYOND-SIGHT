@@ -64,6 +64,40 @@ public static class PAHProjectBuilder
         return t;
     }
 
+
+    static RawImage MakeArtworkBackground(Transform parent, string name, string resourcePath, Color tint)
+    {
+        var go = new GameObject(name);
+        go.transform.SetParent(parent, false);
+        go.transform.SetAsFirstSibling();
+        var raw = go.AddComponent<RawImage>();
+        raw.texture = Resources.Load<Texture2D>(resourcePath);
+        raw.color = tint;
+        raw.raycastTarget = false;
+        var rt = raw.rectTransform;
+        rt.anchorMin = Vector2.zero;
+        rt.anchorMax = Vector2.one;
+        rt.offsetMin = Vector2.zero;
+        rt.offsetMax = Vector2.zero;
+        raw.uvRect = new Rect(0, 0, 1, 1);
+        return raw;
+    }
+
+    static RawImage MakeArtworkPanel(Transform parent, string name, string resourcePath, Vector2 anchorMin, Vector2 anchorMax)
+    {
+        var go = new GameObject(name);
+        go.transform.SetParent(parent, false);
+        var raw = go.AddComponent<RawImage>();
+        raw.texture = Resources.Load<Texture2D>(resourcePath);
+        raw.color = Color.white;
+        raw.raycastTarget = false;
+        var rt = raw.rectTransform;
+        rt.anchorMin = anchorMin;
+        rt.anchorMax = anchorMax;
+        rt.offsetMin = Vector2.zero;
+        rt.offsetMax = Vector2.zero;
+        return raw;
+    }
     static Button MakeButton(Transform parent, string name, string label, Vector2 anchorMin, Vector2 anchorMax)
     {
         var go = new GameObject(name);
@@ -116,6 +150,7 @@ public static class PAHProjectBuilder
     {
         var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
         var canvas = MakeCanvas("LanguageCanvas");
+        MakeArtworkBackground(canvas.transform, "LioraArtwork", "Illustrations/Liora_BeautyBeyondSight", new Color(1f,1f,1f,0.42f));
         MakeText(canvas.transform, "Title", "Choose Your Language / Elige tu idioma", 46, TextAnchor.UpperCenter);
 
         var english = MakeButton(canvas.transform, "EnglishButton", "English", new Vector2(.15f,.35f), new Vector2(.45f,.55f));
@@ -194,13 +229,18 @@ public static class PAHProjectBuilder
     {
         var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
         var canvas = MakeCanvas("MainCanvas");
+        MakeArtworkBackground(canvas.transform, "BeyondSightArtwork", "Illustrations/BeyondSight_InclusiveFuture", new Color(1f,1f,1f,0.38f));
         MakeText(canvas.transform, "Title", "I Can See Now", 56, TextAnchor.UpperCenter);
 
-        MakeButton(canvas.transform, "HealingStations", "Healing Stations", new Vector2(.10f,.55f), new Vector2(.45f,.72f));
-        MakeButton(canvas.transform, "BabyMode", "Baby Mode", new Vector2(.55f,.55f), new Vector2(.90f,.72f));
-        MakeButton(canvas.transform, "AskMom", "Ask FaithFriend Mom", new Vector2(.10f,.32f), new Vector2(.45f,.49f));
-        MakeButton(canvas.transform, "FamilyHub", "Family Hub", new Vector2(.55f,.32f), new Vector2(.90f,.49f));
-        MakeButton(canvas.transform, "Language", "Language / Idioma", new Vector2(.32f,.10f), new Vector2(.68f,.24f));
+        MakeArtworkPanel(canvas.transform, "GlowGardenPanel", "Illustrations/GlowGarden_Adventure", new Vector2(.03f,.74f), new Vector2(.31f,.96f));
+        MakeArtworkPanel(canvas.transform, "CalmToolsPanel", "Illustrations/CalmTools_MasterPanel", new Vector2(.35f,.74f), new Vector2(.63f,.96f));
+        MakeArtworkPanel(canvas.transform, "ExplorerHubPanel", "Illustrations/Explorer_GameHub", new Vector2(.67f,.74f), new Vector2(.95f,.96f));
+
+        MakeButton(canvas.transform, "HealingStations", "Healing Stations", new Vector2(.10f,.49f), new Vector2(.45f,.64f));
+        MakeButton(canvas.transform, "BabyMode", "Baby Mode", new Vector2(.55f,.49f), new Vector2(.90f,.64f));
+        MakeButton(canvas.transform, "AskMom", "Ask FaithFriend Mom", new Vector2(.10f,.28f), new Vector2(.45f,.43f));
+        MakeButton(canvas.transform, "FamilyHub", "Family Hub", new Vector2(.55f,.28f), new Vector2(.90f,.43f));
+        MakeButton(canvas.transform, "Language", "Language / Idioma", new Vector2(.32f,.07f), new Vector2(.68f,.20f));
 
         new GameObject("GameManager").AddComponent<GameManager>();
         new GameObject("StationRouter").AddComponent<StationRouter>();
@@ -212,6 +252,7 @@ public static class PAHProjectBuilder
     {
         var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
         var canvas = MakeCanvas("AskMomCanvas");
+        MakeArtworkBackground(canvas.transform, "LioraArtwork", "Illustrations/Liora_BeautyBeyondSight", new Color(1f,1f,1f,0.28f));
         MakeText(canvas.transform, "Title", "Ask FaithFriend Mom", 50, TextAnchor.UpperCenter);
         MakeText(canvas.transform, "Instructions", "Type or speak your question. Answers follow the selected language.", 30, TextAnchor.MiddleCenter);
 

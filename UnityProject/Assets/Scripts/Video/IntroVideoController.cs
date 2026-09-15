@@ -15,6 +15,8 @@ public class IntroVideoController : MonoBehaviour
     public Image LogoOverlay;
     public Button SkipButton;
     public string NextScene = "Main";
+    public string FallbackArtworkResource = "Illustrations/BeyondSight_InclusiveFuture";
+    public float FallbackDuration = 6f;
 
     void Start()
     {
@@ -39,18 +41,39 @@ public class IntroVideoController : MonoBehaviour
         }
         else
         {
-            if (Watermark) Watermark.text += "\n[Missing: StreamingAssets/" + LanguageManager.IntroVideoFile + "]";
+            if (MainTarget)
+            {
+                MainTarget.texture = Resources.Load<Texture2D>(FallbackArtworkResource);
+                MainTarget.color = Color.white;
+            }
+            if (Captions != null)
+            {
+                Captions.StreamingAssetsRelative = LanguageManager.IntroSrtRelative;
+                Captions.ResetTimer();
+            }
+            StartCoroutine(EndAfterFallback());
         }
 
         if (System.IO.File.Exists(aslPath))
         {
+            if (AslTarget) AslTarget.gameObject.SetActive(true);
             AslVideo.url = aslPath;
             AslVideo.isLooping = true;
             AslVideo.prepareCompleted += (v)=> v.Play();
             AslVideo.Prepare();
         }
+        else if (AslTarget)
+        {
+            AslTarget.gameObject.SetActive(false);
+        }
 
         if (LogoOverlay) LogoOverlay.enabled = true;
+    }
+
+    System.Collections.IEnumerator EndAfterFallback()
+    {
+        yield return new WaitForSeconds(FallbackDuration);
+        EndIntro();
     }
 
     public void EndIntro()

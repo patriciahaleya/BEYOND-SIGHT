@@ -1,0 +1,9 @@
+FINAL RECORDED MEDIA TARGETS
+
+When verified final recordings are available, place them here with these exact names:
+- I_Can_See_Now_Intro_en.mp4
+- I_Can_See_Now_Intro_es.mp4
+- I_Can_See_Now_ASL_Overlay.mp4
+
+The app no longer displays a missing-file placeholder when intro video is absent; it uses original integrated artwork and captions as the fallback experience.
+ASL media must be produced or reviewed by a qualified ASL signer/Deaf reviewer before being represented as verified ASL.
